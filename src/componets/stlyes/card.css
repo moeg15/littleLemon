@@ -1,0 +1,47 @@
+.box {
+  border: 1px solid #ddd; /* Border for the card */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a raised effect */
+  margin: 20px; /* Space around the card */
+  padding: 16px; /* Padding inside the card */
+  background-color: #fff; /* Background color */
+}
+
+.img-container {
+  width: 100%; /* Full width of the container */
+  height: 200px; /* Fixed height for the image container */
+  overflow: hidden; /* Hide any overflow from the image */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  margin-bottom: 16px; /* Space below the image */
+}
+
+.img-container img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.row {
+  display: flex; /* Flexbox for the row */
+  justify-content: space-between; /* Space between the columns */
+  margin-bottom: 16px; /* Space below the row */
+}
+
+.col {
+  flex: 1; /* Each column takes equal space */
+  padding: 0 8px; /* Padding on the sides */
+}
+
+.description {
+  font-size: 14px; /* Smaller font size for the description */
+  color: #555; /* Darker grey color */
+}
+.col button{
+  background-color: yellow;
+  color: black;
+  padding: 2.5%;
+  border: yellow;
+  border-radius: 20%;
+}

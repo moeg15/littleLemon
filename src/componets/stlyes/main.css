@@ -1,0 +1,38 @@
+.bakcground-color{
+  background-color: rgb(73, 94, 87);
+  height: 40vh;
+}
+.content{
+  display: flex;
+}
+.left{
+  width: 50%;
+  padding: 5%;
+
+text-align: center;
+}
+.right{
+  position: relative;
+}
+ .imgig {
+  position:absolute;
+  top: -80%;
+  transform: scale(0.33);
+  transform-origin: center;
+}
+.container{
+height: 50vh;
+}
+.left > h1 {
+  color: yellow;
+}
+.left{
+  color: white;
+}
+.left > button{
+  background-color: yellow;
+  color: black;
+  padding: 2.5%;
+  border: yellow;
+  border-radius: 20%;
+}

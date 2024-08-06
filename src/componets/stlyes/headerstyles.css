@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  height: 5vh;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center; 
+  margin-left: auto; 
+}
+
+li {
+  margin-left: 10px;
+  list-style: none;
+  
+}
+img{
+  justify-content: center;
+}
+
