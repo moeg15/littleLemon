@@ -1,16 +1,17 @@
 import './stlyes/headerstyles.css'
+import {Link} from "react-router-dom"
 export default function Header(){
   return(
     <>
     <nav>
     <img src="../../logo.jpg" alt="a lemon" />
     <ul>
-      <li><a href="">home</a></li>
-      <li><a href="">about</a></li>
-      <li><a href="">menu</a></li>
-      <li><a href="">reservations</a></li>
-      <li><a href="">oerder online</a></li>
-      <li><a href="">login</a></li>
+      <li><Link to={"/"}>home</Link></li>
+      <li><Link to={"/about"}>about</Link></li>
+      <li><Link to={"/menu"}>menu</Link></li>
+      <li><Link to={"/reservation"}>reservation</Link></li>
+      <li><Link to={"/orderOnline"}>order online</Link></li>
+      <li><Link to={"/login"}>login</Link></li>
     </ul>
     </nav>
     
